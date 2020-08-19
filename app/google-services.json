@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1053641757510",
+    "firebase_url": "https://transport-management-sys-69fe4.firebaseio.com",
+    "project_id": "transport-management-sys-69fe4",
+    "storage_bucket": "transport-management-sys-69fe4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053641757510:android:bcbd0d6ebcf78ceb11cb47",
+        "android_client_info": {
+          "package_name": "com.itvillage.tms.tms_transportmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053641757510-pvvlml1qjde963aq2din77rhjhm3rev9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itvillage.tms.tms_transportmanagementsystem",
+            "certificate_hash": "3aa91115e0ab5f2018c2630a1d862914bf4299ea"
+          }
+        },
+        {
+          "client_id": "1053641757510-bkke388elna8t1r4mmtvi2d1sa4mb3vn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZE8mRzpJsFFn0HOGjhdSN_dcw3y0HAqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053641757510-bkke388elna8t1r4mmtvi2d1sa4mb3vn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

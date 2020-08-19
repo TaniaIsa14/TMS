@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMarun"
+    tools:context="com.itvillage.tms.tms_transportmanagementsystem.MainActivity">
+<ImageView
+    android:id="@+id/header_bg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="fitXY"
+    android:src="@drawable/header"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignTop="@id/header_bg"
+        android:layout_alignBottom="@id/header_bg"
+        android:layout_alignStart="@id/header_bg"
+        android:elevation="10dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello,"
+
+            android:fontFamily="@font/share_tech_regular"
+            android:textStyle="bold"
+            android:textSize="36sp"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In!"
+            android:fontFamily="@font/share_tech_regular"
+            android:textStyle="bold"
+            android:paddingStart="50dp"
+            android:textSize="36sp"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/inputLayOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/header_bg"
+        android:layout_above="@id/footer"
+        android:layout_marginTop="50dp"
+        android:padding="30dp">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/outlinedEmailField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            app:boxStrokeColor="@color/colorWhite"
+            android:theme="@style/TextInputLayoutStyle"
+            android:textColorHint="@color/colorHint"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:fontFamily="@font/philosopher_bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/outlinedPasswordField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_marginTop="15dp"
+            app:boxStrokeColor="@color/colorWhite"
+            android:theme="@style/TextInputLayoutStyle"
+            android:textColorHint="@color/colorHint"
+            android:inputType="textPassword"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:fontFamily="@font/philosopher_bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/sign_in"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sign_in_but_bg"
+            android:text="Sign In"
+            android:fontFamily="@font/philosopher_bold"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="30dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="14dp"
+            android:fontFamily="@font/saira_regular"
+            android:text="I have no account."/>
+        <TextView
+            android:id="@+id/sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="14dp"
+            android:fontFamily="@font/saira_bold"
+            android:text=" Sign up"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

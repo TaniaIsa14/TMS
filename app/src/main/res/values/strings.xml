@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TMS-TRANSPORT MANAGEMENT SYSTEM</string>
+    <string name="wirnning_text">When You press on start trip
+button at that moment your live
+location will share all users. </string>
+    <string name="title_activity_maps">Map</string>
+</resources>
